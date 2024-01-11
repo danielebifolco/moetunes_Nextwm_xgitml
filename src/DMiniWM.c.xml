@@ -516,7 +516,7 @@
 <unit><decl_stmt><decl><type><name>desktop
 <unit><decl_stmt><decl><name><name>desktops
 <unit><decl_stmt><decl><name><index>[
-<unit><decl_stmt><decl><name><index><expr><literal>5
+<unit><decl_stmt><decl><name><index><expr><literal>6
 <unit><decl_stmt><decl><name><index>]
 <unit><decl_stmt>;
 <unit><comment>/* ***************************** Window Management ******************************* */
@@ -1269,13 +1269,6 @@
 <unit><function><block><block_content><decl_stmt><decl><type><modifier>*
 <unit><function><block><block_content><decl_stmt><decl><name>c
 <unit><function><block><block_content><decl_stmt>;
-<unit><function><block><block_content><if_stmt><if>if
-<unit><function><block><block_content><if_stmt><if><condition>(
-<unit><function><block><block_content><if_stmt><if><condition><expr><name>head
-<unit><function><block><block_content><if_stmt><if><condition><expr><operator>==
-<unit><function><block><block_content><if_stmt><if><condition><expr><name>NULL
-<unit><function><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><if_stmt><if><block><block_content><return>return;
 <unit><function><block><block_content><for>for
 <unit><function><block><block_content><for><control>(
 <unit><function><block><block_content><for><control><init><expr><name>c
@@ -3064,7 +3057,6 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><expr_stmt>;
 <unit><function><block>}
-<unit><comment>/*void destroynotify(XEvent *e) {    int i=0;    client *c;    XDestroyWindowEvent *ev = &amp;e-&gt;xdestroywindow;    // Uber (and ugly) hack ;)    for(c=head;c;c=c-&gt;next)        if(ev-&gt;window == c-&gt;win)            i++;        // End of the hack    if(i == 0)        return;    remove_window(ev-&gt;window);}*/
 <unit><function><type><name>void
 <unit><function><name>destroynotify
 <unit><function><parameter_list>(
@@ -3150,14 +3142,12 @@
 <unit><function><block><block_content><for><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>i
 <unit><function><block><block_content><for><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>++
 <unit><function><block><block_content><for><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><for><block><block_content><comment>// End of the hack
 <unit><function><block><block_content><for><block><block_content><if_stmt><if>if
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>(
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><name>i
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>!=
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block>{
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>remove_window
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>ev
@@ -3165,27 +3155,16 @@
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>window
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>j
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>!=
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>tmp
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>select_desktop
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>tmp
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block>}
-<unit><function><block><block_content><for><block><block_content><if_stmt><if>if
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>(
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><name>i
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>!=
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition><expr><literal>0
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><empty_stmt>;
-<unit><function><block><block_content><for><block><block_content><break>break;
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name>i
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><literal>0
+<unit><function><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><block><block_content><for><block>}
+<unit><function><block><block_content><expr_stmt><expr><call><name>select_desktop
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>tmp
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><expr_stmt>;
 <unit><function><block>}
 <unit><function><type><name>void
 <unit><function><name>maprequest
