@@ -3526,6 +3526,10 @@
 <unit><struct><block><function><block><block_content><if_stmt><if><condition><expr><name><name>i
 <unit><struct><block><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><return>return;
+<unit><struct><block><function><block><block_content><expr_stmt><expr><name>growth
+<unit><struct><block><function><block><block_content><expr_stmt><expr><operator>=
+<unit><struct><block><function><block><block_content><expr_stmt><expr><literal>0
+<unit><struct><block><function><block><block_content><expr_stmt>;
 <unit><struct><block><function><block><block_content><if_stmt><if>if
 <unit><struct><block><function><block><block_content><if_stmt><if><condition>(
 <unit><struct><block><function><block><block_content><if_stmt><if><condition><expr><name>mode
