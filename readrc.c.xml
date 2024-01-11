@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.8.0 ]
+<unit><comment>// readrc.c [ 0.8.1 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -984,7 +984,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><init>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><operator>&lt;
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>4
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>5
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><operator>++
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><name>i
@@ -1002,6 +1002,12 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if>if
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><name>dummy3
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><name>NULL
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><operator>||
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><name>getcolor
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>dummy3
