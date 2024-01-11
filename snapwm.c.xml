@@ -1,4 +1,4 @@
-<unit><comment>/* snapwm.c [ 0.2.5 ] * *  Started from catwm 31/12/10 *  Permission is hereby granted, free of charge, to any person obtaining a *  copy of this software and associated documentation files (the "Software"), *  to deal in the Software without restriction, including without limitation *  the rights to use, copy, modify, merge, publish, distribute, sublicense, *  and/or sell copies of the Software, and to permit persons to whom the *  Software is furnished to do so, subject to the following conditions: * *  The above copyright notice and this permission notice shall be included in *  all copies or substantial portions of the Software. * *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL *  THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER *  DEALINGS IN THE SOFTWARE. * */
+<unit><comment>/* snapwm.c [ 0.2.6 ] * *  Started from catwm 31/12/10 *  Permission is hereby granted, free of charge, to any person obtaining a *  copy of this software and associated documentation files (the "Software"), *  to deal in the Software without restriction, including without limitation *  the rights to use, copy, modify, merge, publish, distribute, sublicense, *  and/or sell copies of the Software, and to permit persons to whom the *  Software is furnished to do so, subject to the following conditions: * *  The above copyright notice and this permission notice shall be included in *  all copies or substantial portions of the Software. * *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL *  THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER *  DEALINGS IN THE SOFTWARE. * */
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -3218,6 +3218,27 @@
 <unit><struct><block><function><block><block_content><decl_stmt><decl><type><modifier>*
 <unit><struct><block><function><block><block_content><decl_stmt><decl><name>c
 <unit><struct><block><function><block><block_content><decl_stmt>;
+<unit><struct><block><function><block><block_content><decl_stmt><decl><type><specifier>const
+<unit><struct><block><function><block><block_content><decl_stmt><decl><type><name>Atom
+<unit><struct><block><function><block><block_content><decl_stmt><decl><name>alphaatom
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init>= 
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><name>XInternAtom
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><argument_list>(
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><argument_list><argument><expr><name>dis
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><argument_list><argument><expr><literal>"_NET_WM_WINDOW_OPACITY"
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><argument_list><argument><expr><name>False
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><call><argument_list>)
+<unit><struct><block><function><block><block_content><decl_stmt>;
+<unit><struct><block><function><block><block_content><decl_stmt><decl><type><name>unsigned
+<unit><struct><block><function><block><block_content><decl_stmt><decl><type><name>long
+<unit><struct><block><function><block><block_content><decl_stmt><decl><name>opacity
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init>= 
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><name>UF_ALPHA
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><operator>*
+<unit><struct><block><function><block><block_content><decl_stmt><decl><init><expr><literal>0xffffffff
+<unit><struct><block><function><block><block_content><decl_stmt>;
 <unit><struct><block><function><block><block_content><for>for
 <unit><struct><block><function><block><block_content><for><control>(
 <unit><struct><block><function><block><block_content><for><control><init><expr><name>c
@@ -3280,6 +3301,23 @@
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block>{
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><comment>// "Enable" current window
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>UF_ALPHA
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>&lt;
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XDeleteProperty
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>c
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>win
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>alphaatom
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XSetWindowBorder
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -3340,6 +3378,39 @@
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><if><block>}
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else>else 
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block>{
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if>if
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition>(
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>UF_ALPHA
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&lt;
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition>)
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XChangeProperty
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>c
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>win
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>alphaatom
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>XA_CARDINAL
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>32
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>PropModeReplace
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>unsigned
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>char
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>*
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>opacity
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1l
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>XSetWindowBorder
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><struct><block><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -5852,7 +5923,7 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>(
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_height
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>4
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>3
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>*
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>BORDER_WIDTH
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>)
@@ -6042,7 +6113,7 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>(
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_height
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>4
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>3
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>*
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>BORDER_WIDTH
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>)
@@ -7605,11 +7676,7 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><name>PropertyDelete
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block>{
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"prop notify delete"
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><comment>//logger("prop notify delete");
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><return>return;
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if><block>}
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><block><block_content><if_stmt><if>else        if
