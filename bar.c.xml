@@ -1397,7 +1397,7 @@
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>area_sb
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>3
+<unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>4
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name><name>font
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
@@ -1451,7 +1451,7 @@
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>area_sb
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>3
+<unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>4
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>text_start
 <unit><decl_stmt><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
