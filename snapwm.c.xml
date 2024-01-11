@@ -667,6 +667,10 @@
 <unit><struct><block><decl_stmt><decl><type><name>int
 <unit><struct><block><decl_stmt><decl><name>ufalpha
 <unit><struct><block><decl_stmt>;
+<unit><struct><block><decl_stmt><decl><type><specifier>static
+<unit><struct><block><decl_stmt><decl><type><name>int
+<unit><struct><block><decl_stmt><decl><name>windownamelength
+<unit><struct><block><decl_stmt>;
 <unit><struct><block><function_decl><type><specifier>static
 <unit><struct><block><function_decl><type><name>int
 <unit><struct><block><function_decl><name>xerror
@@ -6510,6 +6514,10 @@
 <unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><name>clicktofocus
 <unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><operator>=
 <unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><name>CLICK_TO_FOCUS
+<unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt>;
+<unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><name>windownamelength
+<unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><operator>=
+<unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><name>WINDOW_NAME_LENGTH
 <unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><name>topbar
 <unit><struct><block><decl_stmt><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><operator>=
