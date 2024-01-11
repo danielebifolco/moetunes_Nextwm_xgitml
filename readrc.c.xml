@@ -36,7 +36,7 @@
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>( 
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>RC_FILE
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"r"
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"rb"
 <unit><function><block><block_content><if_stmt><if>if 
 <unit><function><block><block_content><if_stmt><if><condition>( 
 <unit><function><block><block_content><if_stmt><if><condition><expr><name>rcfile

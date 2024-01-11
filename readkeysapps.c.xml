@@ -1286,10 +1286,11 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block>}
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><else>else
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><continue>continue;
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>++
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>keycount
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><continue>continue;
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block>}
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block>}
@@ -1334,7 +1335,7 @@
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>( 
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>APPS_FILE
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"r"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"rb"
 <unit><function><function><block><block_content><if_stmt><if>if 
 <unit><function><function><block><block_content><if_stmt><if><condition>( 
 <unit><function><function><block><block_content><if_stmt><if><condition><expr><name>appsfile
