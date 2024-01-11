@@ -800,6 +800,15 @@
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>mode
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><name>desktops
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index>[
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index><expr><name>i
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index>]
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>.
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>numwins
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&gt;
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>1
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition>)
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>sprintf
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
