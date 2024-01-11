@@ -8282,6 +8282,52 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>screen
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><comment>// Read in RCFILE
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if>if
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>!
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><name>setlocale
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>LC_CTYPE
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>""
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mLocale failed"
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>read_rcfile
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if>if
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><name>STATUS_BAR
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block>{
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>setup_status_bar
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>status_bar
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_output
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block>}
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else>else
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>set_defaults
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><comment>// Shortcuts
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>grabkeys
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><name>ufalpha
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><operator>=
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><name>UF_ALPHA
@@ -8424,48 +8470,9 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>arg
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><comment>// Read in RCFILE
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if>if
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>(
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>!
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><name>setlocale
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>LC_CTYPE
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>""
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>)
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mLocale failed"
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>read_rcfile
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>update_current
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if>if
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>(
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><name>STATUS_BAR
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition><expr><literal>0
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><condition>)
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block>{
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>setup_status_bar
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>status_bar
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_output
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><if><block>}
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else>else
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>set_defaults
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>()
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><comment>// To catch maprequest and destroynotify (if other wm running)
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>XSelectInput
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
@@ -8489,10 +8496,6 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;32mWe're up and running!"
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><comment>// Shortcuts
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>grabkeys
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block>}
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><type><name>void
