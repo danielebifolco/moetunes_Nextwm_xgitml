@@ -5719,6 +5719,10 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><name>topbar
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><name>show_bar
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>y
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
@@ -5897,6 +5901,10 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><name>topbar
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><name>show_bar
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><condition>)
