@@ -1,4 +1,4 @@
-<unit><comment>/* snapwm.c [ 0.1.8 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/*  See the dwm license at http://hg.suckless.org/dwm/raw-file/tip/LICENSE**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
+<unit><comment>/* snapwm.c [ 0.1.8 ]**  Permission is hereby granted, free of charge, to any person obtaining a*  copy of this software and associated documentation files (the "Software"),*  to deal in the Software without restriction, including without limitation*  the rights to use, copy, modify, merge, publish, distribute, sublicense,*  and/or sell copies of the Software, and to permit persons to whom the*  Software is furnished to do so, subject to the following conditions:**  The above copyright notice and this permission notice shall be included in*  all copies or substantial portions of the Software.**  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR*  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,*  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL*  THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER*  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING*  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER*  DEALINGS IN THE SOFTWARE.**/
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -4306,7 +4306,7 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>ascent
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>theme
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
@@ -4340,7 +4340,7 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>ascent
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>sb_text
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
@@ -4478,7 +4478,7 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>ascent
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>busylabel
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
@@ -4520,7 +4520,7 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>ascent
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
@@ -4604,7 +4604,7 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>ascent
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
@@ -4917,7 +4917,7 @@
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><name><name>ascent
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><name>output
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list>, 
@@ -5358,7 +5358,7 @@
 <unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>ascent
 <unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
-<unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>10
+<unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>8
 <unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
 <unit><decl_stmt><function><function><block><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
@@ -6234,7 +6234,6 @@
 <unit><decl_stmt><function><function><block><function><function><parameter_list><parameter><decl><name>e
 <unit><decl_stmt><function><function><block><function><function><parameter_list>)
 <unit><decl_stmt><function><function><block><function><function><block>{
-<unit><decl_stmt><function><function><block><function><function><block><block_content><comment>// Paste from DWM, thx again \o/
 <unit><decl_stmt><function><function><block><function><function><block><block_content><decl_stmt><decl><type><name>XConfigureRequestEvent
 <unit><decl_stmt><function><function><block><function><function><block><block_content><decl_stmt><decl><type><modifier>*
 <unit><decl_stmt><function><function><block><function><function><block><block_content><decl_stmt><decl><name>ev
@@ -8197,7 +8196,6 @@
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><parameter_list><parameter><decl><name>unused
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><parameter_list>)
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block>{
-<unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><comment>// Again, thx to dwm ;)
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><if_stmt><if>if
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><if_stmt><if><condition>(
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><if_stmt><if><condition><expr><call><name>signal
@@ -8451,7 +8449,6 @@
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><decl_stmt><decl><type><name>XEvent
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><decl_stmt><decl><name>ev
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><decl_stmt>;
-<unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><comment>// Main loop, just dispatch events (thx to dwm ;)
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><while>while
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><while><condition>(
 <unit><decl_stmt><function><function><block><function><function><block><function><function><function><block><block_content><while><condition><expr><operator>!
