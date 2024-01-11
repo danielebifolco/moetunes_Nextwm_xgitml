@@ -1,4 +1,4 @@
-<unit><comment>/* snapwm.c [ 0.0.1 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
+<unit><comment>/* snapwm.c [ 0.0.2 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -3747,7 +3747,11 @@
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_desks
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
+<unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
+<unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>DESKTOPS
+<unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>/
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>*
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>BORDER_WIDTH
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list>, 
@@ -3804,7 +3808,7 @@
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><name>status_text
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"woodywm-------------------WOOT!!!!!*****!!!!!*****!!!!!##"
+<unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"snapwm-------------------WOOT!!!!!*****!!!!!*****!!!!!##"
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><decl_stmt><function><block>}
@@ -3984,7 +3988,7 @@
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition>)
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_text
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>"woodywm"
+<unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>"snapwm"
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if>if
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition>(
@@ -3994,7 +3998,7 @@
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition>)
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_text
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>"woodywm"
+<unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>"snapwm"
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if>if
 <unit><decl_stmt><decl><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition>(
@@ -6027,7 +6031,7 @@
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>stdout
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\n\033[0;34m:: woodywm : %s \033[0;m\n"
+<unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\n\033[0;34m:: snapwm : %s \033[0;m\n"
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>e
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
@@ -6095,7 +6099,7 @@
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>stderr
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;34m :: woodywm :\033[0;31m unable to load preferred font: %s using fixed"
+<unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;34m :: snapwm :\033[0;31m unable to load preferred font: %s using fixed"
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>fontname
 <unit><decl_stmt><decl><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
