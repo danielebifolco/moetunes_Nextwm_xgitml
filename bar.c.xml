@@ -339,6 +339,8 @@
 <unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>ButtonPressMask
 <unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>|
 <unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>EnterWindowMask
+<unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>|
+<unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>LeaveWindowMask
 <unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><for><block><block_content><expr_stmt><expr><call><name>XMapRaised
@@ -402,6 +404,8 @@
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>ExposureMask
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>|
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>EnterWindowMask
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>|
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>LeaveWindowMask
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>XMapRaised
