@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.8.2 ]
+<unit><comment>// readrc.c [ 0.8.4 ]
 <unit><decl_stmt><decl><type><name>unsigned
 <unit><decl_stmt><decl><type><name>int
 <unit><decl_stmt><decl><name>i
@@ -3060,7 +3060,7 @@
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>select_desktop
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>current_desktop
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>tmp
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block>}
@@ -3073,6 +3073,39 @@
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_bar
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for>for
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control>(
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><init><expr><name>i
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><init><expr><operator>=
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><init><expr><literal>0
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><init>;
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><condition><expr><name>i
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><condition><expr><operator>&lt;
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><condition><expr><name>num_screens
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><condition>;
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><incr><expr><operator>++
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control><incr><expr><name>i
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control>)
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block>{
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><name>select_desktop
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>view
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>i
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>cd
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt>;
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><name>tile
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block><block_content><expr_stmt>;
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><block>}
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><name>select_desktop
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>tmp
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt>;
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><name>update_current
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt>;
