@@ -254,6 +254,9 @@
 <unit><function><parameter_list><parameter><decl><name>neww
 <unit><function><parameter_list>)
 <unit><function><block>{
+<unit><function><block><block_content><decl_stmt><decl><type><name>XWindowAttributes
+<unit><function><block><block_content><decl_stmt><decl><name>attr
+<unit><function><block><block_content><decl_stmt>;
 <unit><function><block><block_content><if_stmt><if>if
 <unit><function><block><block_content><if_stmt><if><condition>(
 <unit><function><block><block_content><if_stmt><if><condition><expr><call><name>XGetWindowAttributes
@@ -2033,7 +2036,7 @@
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><name><name>subwindow
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><operator>&amp;
-<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><name>attr
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list><argument><expr><name>mattr
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><block_content><decl_stmt><decl><expr_stmt><expr><name>starter
@@ -2186,7 +2189,7 @@
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>window
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>,        
-<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>attr
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>mattr
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>x
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
@@ -2201,7 +2204,7 @@
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><ternary><else><expr><literal>0
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>,        
-<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>attr
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>mattr
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>y
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
@@ -2220,7 +2223,7 @@
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><literal>1
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>, 
-<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>attr
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>mattr
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><operator>.
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>width
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><operator>+
@@ -2240,7 +2243,7 @@
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><literal>1
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>, 
-<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>attr
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>mattr
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><operator>.
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>height
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><operator>+
@@ -2269,6 +2272,9 @@
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt><decl><type><name>client
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt><decl><type><modifier>*
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt><decl><name>c
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt>;
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt><decl><type><name>XWindowAttributes
+<unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt><decl><name>attr
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt>;
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt><decl><type><name>XButtonEvent
 <unit><function><block><block_content><decl_stmt><function><block><block_content><function><block><function><block><block_content><decl_stmt><decl><type><modifier>*
