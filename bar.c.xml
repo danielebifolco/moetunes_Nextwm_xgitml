@@ -1173,7 +1173,6 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>win_name
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><expr_stmt>;
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><comment>//if(strlen(output) &lt; 1) printf("\t EMPTY OUTPUT\n");
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if>if
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><condition>(
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><condition><expr><call><name>strlen
@@ -1278,7 +1277,6 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><expr_stmt><expr><literal>20
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><expr_stmt><expr><operator>)
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><expr_stmt>;
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><comment>//printf("\t k == %d\n", k);
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if>if
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><condition>(
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><condition><expr><name>text_space
@@ -1287,28 +1285,7 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><condition>)
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>text_start
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XTextWidth
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>fontbar
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" "
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strlen
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>theme
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>[
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index><expr><name>mode
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><operator>.
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>modename
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>40
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>)
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_end
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>(
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>sw
@@ -1316,26 +1293,7 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>(
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_desks
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XTextWidth
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>fontbar
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" "
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strlen
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>theme
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>[
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index><expr><name>mode
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><operator>.
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>modename
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>40
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_end
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XTextWidth
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
@@ -1353,26 +1311,7 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else>else
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><name>text_start
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><operator>=
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><name>XTextWidth
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>fontbar
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" "
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strlen
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>theme
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>[
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index><expr><name>mode
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><operator>.
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>modename
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>40
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><name>sb_end
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><if_stmt><else><block><block_content><expr_stmt>;
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><for>for
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl_stmt><for><control>(
