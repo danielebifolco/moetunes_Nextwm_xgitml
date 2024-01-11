@@ -1,4 +1,4 @@
-<unit><comment>// bar.c [ 0.4.1 ]
+<unit><comment>// bar.c [ 0.4.2 ]
 <unit><comment>/* ************************** Status Bar *************************** */
 <unit><decl_stmt><decl><type><specifier>static
 <unit><decl_stmt><decl><type><name>int
@@ -950,17 +950,23 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><else><block><block_content><expr_stmt>;
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><name>text_total
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>=
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><name>sb_end
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>/
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><name>XTextWidth
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>(
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><name>strlen
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>fontbar
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>" "
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name><name>theme
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>mode
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>modename
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>)
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>+
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><literal>4
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>+
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><name>windownamelength
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>)
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt>;
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><comment>//sb_end/XTextWidth(fontbar, " ", 1);
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><name>text_start
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>=
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><name>text_total
