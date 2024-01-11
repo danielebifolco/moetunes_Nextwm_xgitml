@@ -1,4 +1,4 @@
-<unit><comment>/* DMiniWM.c [ 7 ]**  I started this from catwm 31/12/10 with many thanks!*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/ with many thanks !**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
+<unit><comment>/* DMiniWM.c [ 8 ]**  I started this from catwm 31/12/10 with many thanks!*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/ with many thanks !**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -179,16 +179,6 @@
 <unit><function_decl><name>destroynotify
 <unit><function_decl><parameter_list>(
 <unit><function_decl><parameter_list><parameter><decl><type><name>XEvent
-<unit><function_decl><parameter_list><parameter><decl><type><modifier>*
-<unit><function_decl><parameter_list><parameter><decl><name>e
-<unit><function_decl><parameter_list>)
-<unit><function_decl>;
-<unit><function_decl><type><specifier>static
-<unit><function_decl><type><name>void
-<unit><function_decl><name>die
-<unit><function_decl><parameter_list>(
-<unit><function_decl><parameter_list><parameter><decl><type><specifier>const
-<unit><function_decl><parameter_list><parameter><decl><type><name>char
 <unit><function_decl><parameter_list><parameter><decl><type><modifier>*
 <unit><function_decl><parameter_list><parameter><decl><name>e
 <unit><function_decl><parameter_list>)
@@ -560,11 +550,18 @@
 <unit><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
 <unit><function><block><block_content><if_stmt><if><condition><expr><operator>)
 <unit><function><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>die
+<unit><function><block><block_content><if_stmt><if><block>{
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Error calloc!"
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mError calloc!\033[0m"
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>exit
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><if_stmt><if>if
 <unit><function><block><block_content><if_stmt><if><condition>(
 <unit><function><block><block_content><if_stmt><if><condition><expr><name>head
@@ -3033,11 +3030,18 @@
 <unit><function><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>c
 <unit><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
 <unit><function><block><block_content><if_stmt><if><condition>)
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>die
+<unit><function><block><block_content><if_stmt><if><block>{
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Error parsing color!"
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mError parsing color!\033[0m"
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>exit
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><return>return 
 <unit><function><block><block_content><return><expr><name><name>c
 <unit><function><block><block_content><return><expr><name><operator>.
@@ -3095,7 +3099,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" Thanks for using!"
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" \033[0;33mThanks for using!\033[0m"
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XCloseDisplay
@@ -3105,7 +3109,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"forced shutdown"
+<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mforced shutdown\033[0m"
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block>}
@@ -3224,34 +3228,10 @@
 <unit><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>logger
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
-<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"You Quit : Thanks for using!"
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;34mYou Quit : Thanks for using!\033[0m"
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><block><block_content>}
-<unit><function><function><type><name>void
-<unit><function><function><name>die
-<unit><function><function><parameter_list>(
-<unit><function><function><parameter_list><parameter><decl><type><specifier>const
-<unit><function><function><parameter_list><parameter><decl><type><name>char
-<unit><function><function><parameter_list><parameter><decl><type><modifier>*
-<unit><function><function><parameter_list><parameter><decl><name>e
-<unit><function><function><parameter_list>)
-<unit><function><function><block>{
-<unit><function><function><block><block_content><expr_stmt><expr><call><name>fprintf
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>stdout
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\n:: DMiniWM : %s\n\n"
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>e
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><expr_stmt><expr><call><name>exit
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><expr_stmt>;
-<unit><function><function><block>}
 <unit><function><function><type><name>void
 <unit><function><function><name>logger
 <unit><function><function><parameter_list>(
@@ -3265,7 +3245,7 @@
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>stdout
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\n:: DMiniWM : %s\n\n"
+<unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\n\033[0;34m:: DMiniWM : %s\n\n"
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>e
 <unit><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
@@ -3571,7 +3551,7 @@
 <unit><function><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>logger
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"We're up and running!"
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;32mWe're up and running!\033[0m"
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><function><block><block_content>}
@@ -3594,11 +3574,18 @@
 <unit><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><function><function><function><block><block_content><if_stmt><if><condition><expr><name>SIG_ERR
 <unit><function><function><function><block><block_content><if_stmt><if><condition>)
-<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>die
+<unit><function><function><function><block><block_content><if_stmt><if><block>{
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Can't install SIGCHLD handler"
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mCan't install SIGCHLD handler\033[0m"
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>exit
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><function><block><block_content><if_stmt><if><block>}
 <unit><function><function><function><block><block_content><while>while
 <unit><function><function><function><block><block_content><while><condition>(
 <unit><function><function><function><block><block_content><while><condition><expr><literal>0
@@ -3711,7 +3698,7 @@
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><return>;
 <unit><function><function><function><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Bad Window Error!"
+<unit><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mBad Window Error!\033[0m"
 <unit><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><expr_stmt>;
 <unit><function><function><function><block><block_content><return>return 
@@ -3794,11 +3781,18 @@
 <unit><function><function><function><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><if_stmt><if><condition><expr><operator>)
 <unit><function><function><function><block><block_content><if_stmt><if><condition>)
-<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>die
+<unit><function><function><function><block><block_content><if_stmt><if><block>{
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Cannot open display!"
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mCannot open display!\033[0m"
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>exit
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><function><block><block_content><if_stmt><if><block>}
 <unit><function><function><function><block><block_content><comment>// Setup env
 <unit><function><function><function><block><block_content><expr_stmt><expr><call><name>setup
 <unit><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
