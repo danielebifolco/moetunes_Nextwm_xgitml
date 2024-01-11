@@ -88,6 +88,13 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><index>]
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><literal>'#'
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><operator>||
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><name>buffer
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><index>[
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><index><expr><literal>0
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><index>]
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><literal>' '
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>)
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><continue>continue;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><comment>/* Now look for info */
