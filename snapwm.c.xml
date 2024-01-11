@@ -4665,6 +4665,8 @@
 <unit><struct><block><function><function><block><block_content><if_stmt><if><condition><expr><name><name>attr
 <unit><struct><block><function><function><block><block_content><if_stmt><if><condition><expr><name><operator>.
 <unit><struct><block><function><function><block><block_content><if_stmt><if><condition><expr><name><name>override_redirect
+<unit><struct><block><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><struct><block><function><function><block><block_content><if_stmt><if><condition><expr><name>True
 <unit><struct><block><function><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><return>return;
 <unit><struct><block><function><function><block><block_content><comment>// For fullscreen mplayer (and maybe some other program)
