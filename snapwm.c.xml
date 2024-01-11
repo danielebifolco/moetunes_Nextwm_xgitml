@@ -1066,7 +1066,6 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><decl_stmt><decl><init><expr><block><expr><literal>0
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><decl_stmt><decl><init><expr><block>}
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><decl_stmt>;
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><decl_stmt><decl><type><specifier>static
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><decl_stmt><decl><type><name>unsigned
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><decl_stmt><decl><type><name>int
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><decl_stmt><decl><name>len2
@@ -2057,13 +2056,17 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><decl_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if>if
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition>(
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><name>head
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><operator>-&gt;
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><name>next
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name>NULL
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><name>desktops
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><index>[
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><index><expr><name>current_desktop
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><index>]
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><operator>.
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name>numwins
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><operator>&lt;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><literal>2
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><return>return;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><comment>//if(head-&gt;next == NULL) return;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if>if
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition>(
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name>mode
@@ -2133,13 +2136,17 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><decl_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if>if
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition>(
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><name>head
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><operator>-&gt;
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><name>next
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name>NULL
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><name>desktops
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><index>[
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><index><expr><name>current_desktop
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name><index>]
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><operator>.
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name>numwins
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><operator>&lt;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><literal>2
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><return>return;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><comment>//if(head-&gt;next == NULL) return;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if>if
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition>(
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name>mode
