@@ -1578,7 +1578,7 @@
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><name>text_start
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><operator>=
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><ternary><condition><expr><operator>(
-<unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><ternary><condition><expr><name>LA_STATUS_TEXT
+<unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><ternary><condition><expr><name>LA_WINDOWNAME
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><ternary><condition><expr><operator>&lt;
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><ternary><condition><expr><literal>1
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><decl><decl><decl><expr_stmt><expr><ternary><condition><expr><operator>)
