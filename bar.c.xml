@@ -1,4 +1,4 @@
-<unit><comment>// bar.c [ 0.8.5 ]
+<unit><comment>// bar.c [ 0.8.6 ]
 <unit><function_decl><type><specifier>static
 <unit><function_decl><type><name>void
 <unit><function_decl><name>draw_numopen
@@ -252,6 +252,8 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><condition><expr><literal>0
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><condition><expr><operator>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><then><expr><literal>0
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><then><expr><operator>+
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><then><expr><name>ug_bar
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else>: 
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else><expr><name><name>desktops
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else><expr><name><index>[
@@ -261,10 +263,12 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else><expr><name>h
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else><expr><operator>+
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else><expr><name>bdw
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else><expr><operator>-
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><ternary><else><expr><name>ug_bar
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><name>sb_width
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>=
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><literal>0
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><name>ug_bar
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><decl_stmt><for>for
 <unit><decl_stmt><function><block><block_content><decl_stmt><for><control>(
@@ -388,6 +392,8 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>x
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>sb_desks
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>ug_bar
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>y
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,             
@@ -405,6 +411,10 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>2
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>)
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>-
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>*
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>ug_bar
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>sb_height
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,
@@ -563,6 +573,8 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_height
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>4
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>ug_bar
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else>else 
@@ -584,6 +596,8 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>sb_height
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>+
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><literal>4
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>+
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>ug_bar
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>update_bar
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>()
@@ -940,7 +954,7 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name><index><expr><name>i
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name><index>]
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>.
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>numwins
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>numorder
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>&gt;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>1
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
@@ -1094,8 +1108,8 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if>if
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition>(
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>showopen
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&lt;
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>(
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><name>desktops
@@ -1122,7 +1136,7 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index><expr><name>i
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index>]
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>.
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>numwins
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>numorder
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&gt;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>1
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition>)
@@ -1306,7 +1320,7 @@
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name><index><expr><name>cd
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name><index>]
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><operator>.
-<unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name>numwins
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name>numorder
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><condition>;
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><incr><expr><operator>++
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><decl><for><control><incr><expr><name>i

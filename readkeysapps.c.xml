@@ -1,4 +1,4 @@
-<unit><comment>/* readkeysapps.c [ 0.8.5 ] */
+<unit><comment>/* readkeysapps.c [ 0.8.6 ] */
 <unit><function><type><name>void
 <unit><function><name>read_keys_file
 <unit><function><parameter_list>()
@@ -1163,6 +1163,26 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>dummy
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"pop_window"
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>keys
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index>[
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><name>keycount
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index>]
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>.
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>myfunction
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>pop_window
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if>else if
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><name>strcmp
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>dummy
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"toggle_bar"
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
@@ -1335,6 +1355,8 @@
 <unit><function><function><block><block_content><expr_stmt><expr><name>dtcount
 <unit><function><function><block><block_content><expr_stmt><expr><operator>=
 <unit><function><function><block><block_content><expr_stmt><expr><name>pcount
+<unit><function><function><block><block_content><expr_stmt><expr><operator>=
+<unit><function><function><block><block_content><expr_stmt><expr><name>tcount
 <unit><function><function><block><block_content><expr_stmt><expr><operator>=
 <unit><function><function><block><block_content><expr_stmt><expr><literal>0
 <unit><function><function><block><block_content><expr_stmt>;
@@ -1617,6 +1639,45 @@
 <unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>++
 <unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>pcount
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><continue>continue;
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>}
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if>else if
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>(
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><name>strstr
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>buffer
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"POPPED"
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><operator>!=
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name>NULL
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>)
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>{
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>k
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>7
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><name>get_value
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>()
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>popped
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index>[
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><name>tcount
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index>]
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>.
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>class
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strdup
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dummy
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>++
+<unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>tcount
 <unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><continue>continue;
 <unit><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>}
