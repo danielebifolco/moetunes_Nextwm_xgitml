@@ -4705,6 +4705,13 @@
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><literal>'\0'
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><if_stmt><else><block>}
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>XFree
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>text_prop
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>value
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><if_stmt><if>if
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><if_stmt><if><condition>(
 <unit><decl_stmt><function><function><block><block_content><decl_stmt><if_stmt><if><condition><expr><call><name>strlen
