@@ -398,6 +398,8 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>.
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>w
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>-
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>lessbar
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>-
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>(
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>sb_desks
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
