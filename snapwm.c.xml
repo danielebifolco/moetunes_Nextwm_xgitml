@@ -3790,12 +3790,6 @@
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>head
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>!=
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>NULL
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name><name>head
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name><operator>-&gt;
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name><name>next
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>!=
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block>{
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XUnmapWindow
@@ -3864,12 +3858,6 @@
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><literal>1
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>head
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>!=
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>NULL
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name><name>head
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name><operator>-&gt;
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name><name>next
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>!=
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><condition>)
