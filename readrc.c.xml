@@ -1040,7 +1040,6 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>{
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>windownamelength
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>(
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>atoi
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strstr
@@ -1052,11 +1051,6 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>*
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>font
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>.
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>width
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>)
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
