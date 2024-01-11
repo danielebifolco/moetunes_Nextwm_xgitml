@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.6.3 ]
+<unit><comment>// readrc.c [ 0.6.4 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -496,7 +496,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>buffer
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"BARTHEME"
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"SWITCHERTHEME"
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>!=
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
@@ -624,7 +624,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>buffer
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"TEXTTHEME"
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"STATUSTHEME"
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>!=
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
@@ -684,7 +684,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><init>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><operator>&lt;
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>7
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>10
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><operator>++
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><name>i
@@ -758,6 +758,32 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>{
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>showopen
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>atoi
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strstr
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>buffer
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>, 
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><literal>" "
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if>else if
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><name>strstr
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>buffer
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"WNAMEBG"
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>!=
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>NULL
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>{
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>wnamebg
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>atoi
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
@@ -1675,7 +1701,7 @@
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><init>;
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><name>i
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><operator>&lt;
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>7
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>10
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><condition>;
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><operator>++
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><name>i
@@ -2293,7 +2319,12 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>area_sb
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>bggc
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>theme
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><literal>0
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>gc
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 

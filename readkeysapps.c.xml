@@ -1,4 +1,4 @@
-<unit><comment>/* readkeysapps.c [ 0.6.3 ] */
+<unit><comment>/* readkeysapps.c [ 0.6.4 ] */
 <unit><function><type><name>void
 <unit><function><name>read_keys_file
 <unit><function><parameter_list>()
@@ -375,7 +375,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"CtrlSuper"
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
-<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>7
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>9
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
@@ -399,7 +399,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"ShftSuper"
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
-<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>7
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>9
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
