@@ -1188,6 +1188,17 @@
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block>}
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block>}
 <unit><function><function><block><block_content><for><block>}
+<unit><function><function><block><block_content><if_stmt><if>if
+<unit><function><function><block><block_content><if_stmt><if><condition>(
+<unit><function><function><block><block_content><if_stmt><if><condition><expr><name>head
+<unit><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><function><block><block_content><if_stmt><if><condition><expr><name>NULL
+<unit><function><function><block><block_content><if_stmt><if><condition>)
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>status_text
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block>}
 <unit><function><function><type><name>void
 <unit><function><function><name>draw_desk
