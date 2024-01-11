@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.7.7 ]
+<unit><comment>// readrc.c [ 0.7.8 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile

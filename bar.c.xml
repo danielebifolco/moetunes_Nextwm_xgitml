@@ -1,4 +1,4 @@
-<unit><comment>// bar.c [ 0.7.7 ]
+<unit><comment>// bar.c [ 0.7.8 ]
 <unit><function_decl><type><specifier>static
 <unit><function_decl><type><name>void
 <unit><function_decl><name>draw_numopen
