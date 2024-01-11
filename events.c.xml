@@ -1101,6 +1101,10 @@
 <unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><name>numwins
 <unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><operator>&gt;
 <unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><literal>1
+<unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><operator>&amp;&amp;
+<unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><name>move
+<unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><operator>==
+<unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><literal>0
 <unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition>)
 <unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XUnmapWindow
 <unit><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
