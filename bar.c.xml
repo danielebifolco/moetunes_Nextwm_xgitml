@@ -1272,9 +1272,12 @@
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><decl_stmt>;
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if>if
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition>(
-<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><name>sb_text
-<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><operator>==
-<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><literal>'\0'
+<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><call><name>strlen
+<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list>(
+<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>sb_text
+<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list>)
+<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><operator>&lt;
+<unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition><expr><literal>1
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><condition>)
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_text
 <unit><function><function><function><function><block><block_content><decl_stmt><decl><decl><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
