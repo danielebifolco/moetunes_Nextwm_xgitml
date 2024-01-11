@@ -1269,10 +1269,6 @@
 <unit><function><function><block><block_content><decl_stmt><decl><for><control><init>;
 <unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name>i
 <unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><operator>&lt;
-<unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><literal>6
-<unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><operator>&amp;&amp;
-<unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name>i
-<unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><operator>&lt;
 <unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name><name>desktops
 <unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name><index>[
 <unit><function><function><block><block_content><decl_stmt><decl><for><control><condition><expr><name><index><expr><name>cd
