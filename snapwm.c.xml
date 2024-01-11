@@ -1,4 +1,4 @@
-<unit><comment>/* snapwm.c [ 0.2.6 ] * *  Started from catwm 31/12/10 *  Permission is hereby granted, free of charge, to any person obtaining a *  copy of this software and associated documentation files (the "Software"), *  to deal in the Software without restriction, including without limitation *  the rights to use, copy, modify, merge, publish, distribute, sublicense, *  and/or sell copies of the Software, and to permit persons to whom the *  Software is furnished to do so, subject to the following conditions: * *  The above copyright notice and this permission notice shall be included in *  all copies or substantial portions of the Software. * *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL *  THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER *  DEALINGS IN THE SOFTWARE. * */
+<unit><comment>/* snapwm.c [ 0.2.7 ] * *  Started from catwm 31/12/10 *  Permission is hereby granted, free of charge, to any person obtaining a *  copy of this software and associated documentation files (the "Software"), *  to deal in the Software without restriction, including without limitation *  the rights to use, copy, modify, merge, publish, distribute, sublicense, *  and/or sell copies of the Software, and to permit persons to whom the *  Software is furnished to do so, subject to the following conditions: * *  The above copyright notice and this permission notice shall be included in *  all copies or substantial portions of the Software. * *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL *  THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER *  DEALINGS IN THE SOFTWARE. * */
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -5031,6 +5031,20 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list>(
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>output
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><operator>&lt;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><literal>1
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\t EMPTY OUTPUT\n"
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if>if
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><call><name>strlen
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list>(
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>output
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><call><argument_list>)
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><operator>&gt;
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition><expr><literal>255
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><decl><decl><decl><if_stmt><if><condition>)
@@ -8268,10 +8282,6 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>screen
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><comment>// Shortcuts
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>grabkeys
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
-<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><name>ufalpha
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><operator>=
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><name>UF_ALPHA
@@ -8479,6 +8489,10 @@
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;32mWe're up and running!"
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><comment>// Shortcuts
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><name>grabkeys
+<unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><block>}
 <unit><struct><block><function><function><function><block><block_content><decl_stmt><function><function><function><function><type><name>void
