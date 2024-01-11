@@ -346,7 +346,7 @@
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>.
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name>labelwidth
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><operator>+
-<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><literal>4
+<unit><function><block><block_content><for><block><block_content><expr_stmt><expr><literal>6
 <unit><function><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><block><block_content><for><block><block_content><if_stmt><if>if
 <unit><function><block><block_content><for><block><block_content><if_stmt><if><condition>(
@@ -386,7 +386,6 @@
 <unit><function><block><block_content><for><block><block_content><expr_stmt><expr><name>width
 <unit><function><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><block><block_content><for><block>}
-<unit><function><block><block_content><comment>//sb_width += 4;
 <unit><function><block><block_content><expr_stmt><expr><name>sb_desks
 <unit><function><block><block_content><expr_stmt><expr><operator>+=
 <unit><function><block><block_content><expr_stmt><expr><literal>2
