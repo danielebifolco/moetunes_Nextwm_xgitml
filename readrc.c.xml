@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.7.0 ]
+<unit><comment>// readrc.c [ 0.7.1 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -324,6 +324,51 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>10
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>}
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if>else if
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><name>strstr
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>buffer
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"BAR_MONITOR"
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><operator>!=
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name>NULL
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>{
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>i
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>atoi
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strstr
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>buffer
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>, 
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><literal>" "
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>i
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>&lt;
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>num_screens
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>i
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>&gt;=
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>{
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>barmon
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>i
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>init_desks
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>}
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if>else if
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>(
@@ -2007,7 +2052,7 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else>: 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else><expr><name><name>desktops
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else><expr><name><index>[
-<unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else><expr><name><index><expr><literal>0
+<unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else><expr><name><index><expr><name>barmon
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else><expr><name><index>]
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else><expr><operator>.
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><ternary><else><expr><name>h
@@ -2217,6 +2262,13 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_win
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>desktops
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>barmon
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>x
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_width
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
@@ -2277,13 +2329,20 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_area
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>desktops
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>barmon
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>x
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_desks
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>desktops
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><literal>0
+<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>barmon
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>w
