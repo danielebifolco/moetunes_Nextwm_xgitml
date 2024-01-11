@@ -4700,14 +4700,7 @@
 <unit><struct><block><function><function><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><struct><block><function><function><block><block_content><if_stmt><if><condition><expr><name>True
 <unit><struct><block><function><function><block><block_content><if_stmt><if><condition>)
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block>{
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\t o-d !!! \n"
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><return>return;
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block>}
 <unit><struct><block><function><function><block><block_content><comment>// For fullscreen mplayer (and maybe some other program)
 <unit><struct><block><function><function><block><block_content><decl_stmt><decl><type><name>client
 <unit><struct><block><function><function><block><block_content><decl_stmt><decl><type><modifier>*
@@ -4980,11 +4973,6 @@
 <unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
 <unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
-<unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\t added window in maprequest!!!\n"
-<unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
 <unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
 <unit><struct><block><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>tmp
