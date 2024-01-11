@@ -14,7 +14,7 @@
 <unit><function><block><block_content><decl_stmt><decl><type><name>char
 <unit><function><block><block_content><decl_stmt><decl><name><name>buffer
 <unit><function><block><block_content><decl_stmt><decl><name><index>[
-<unit><function><block><block_content><decl_stmt><decl><name><index><expr><literal>80
+<unit><function><block><block_content><decl_stmt><decl><name><index><expr><literal>100
 <unit><function><block><block_content><decl_stmt><decl><name><index>]
 <unit><function><block><block_content><decl_stmt>;
 <unit><function><block><block_content><comment>/* Way bigger that neccessary */
