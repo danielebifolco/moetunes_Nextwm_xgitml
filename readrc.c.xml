@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.8.1 ]
+<unit><comment>// readrc.c [ 0.8.2 ]
 <unit><decl_stmt><decl><type><name>unsigned
 <unit><decl_stmt><decl><type><name>int
 <unit><decl_stmt><decl><name>i
@@ -42,13 +42,6 @@
 <unit><decl_stmt><decl><function><block><block_content><while><condition><expr><name><index>]
 <unit><decl_stmt><decl><function><block><block_content><while><condition><expr><operator>!=
 <unit><decl_stmt><decl><function><block><block_content><while><condition><expr><literal>';'
-<unit><decl_stmt><decl><function><block><block_content><while><condition><expr><operator>&amp;&amp;
-<unit><decl_stmt><decl><function><block><block_content><while><condition><expr><name><name>buffer
-<unit><decl_stmt><decl><function><block><block_content><while><condition><expr><name><index>[
-<unit><decl_stmt><decl><function><block><block_content><while><condition><expr><name><index><expr><name>k
-<unit><decl_stmt><decl><function><block><block_content><while><condition><expr><name><index>]
-<unit><decl_stmt><decl><function><block><block_content><while><condition><expr><operator>!=
-<unit><decl_stmt><decl><function><block><block_content><while><condition><expr><literal>' '
 <unit><decl_stmt><decl><function><block><block_content><while><condition><expr><operator>&amp;&amp;
 <unit><decl_stmt><decl><function><block><block_content><while><condition><expr><name><name>buffer
 <unit><decl_stmt><decl><function><block><block_content><while><condition><expr><name><index>[
