@@ -1711,6 +1711,22 @@
 <unit><function><block><block_content><decl_stmt><decl><init>= 
 <unit><function><block><block_content><decl_stmt><decl><init><expr><literal>0
 <unit><function><block><block_content><decl_stmt>;
+<unit><function><block><block_content><decl_stmt><decl><type><name>int
+<unit><function><block><block_content><decl_stmt><decl><name>y
+<unit><function><block><block_content><decl_stmt><decl><init>= 
+<unit><function><block><block_content><decl_stmt><decl><init><expr><literal>0
+<unit><function><block><block_content><decl_stmt>;
+<unit><function><block><block_content><comment>// For a top panel
+<unit><function><block><block_content><if_stmt><if>if
+<unit><function><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><if><condition><expr><name>TOP_PANEL
+<unit><function><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><block><block_content><if_stmt><if><condition><expr><literal>0
+<unit><function><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>y
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>PANEL_HEIGHT
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><comment>// If only one window
 <unit><function><block><block_content><if_stmt><if>if
 <unit><function><block><block_content><if_stmt><if><condition>(
@@ -1735,7 +1751,7 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sw
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
@@ -1774,7 +1790,7 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sw
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
@@ -1832,6 +1848,8 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>x
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>master_size
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>BORDER_WIDTH
@@ -1892,7 +1910,7 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sw
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
@@ -1924,7 +1942,7 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>0
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>master_size
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
@@ -1955,6 +1973,10 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><operator>++
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><name>n
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt>;
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><name>x
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><operator>=
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><name>y
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for>for
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><control>(
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><control><init><expr><name>c
