@@ -229,7 +229,9 @@
 <unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block>{    
 <unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt><decl><type><name>unsigned
 <unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt><decl><type><name>long
-<unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt><decl><name>color
+<unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt><decl><name>barcolor
+<unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt>, 
+<unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt><name>wincolor
 <unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt>;
 <unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt><decl><type><specifier>const
 <unit><struct><block><decl_stmt><struct><block><typedef><type><struct><block><decl_stmt><decl><type><name>char
@@ -4380,7 +4382,7 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><literal>0
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>color
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>wincolor
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XSetInputFocus
@@ -4473,7 +4475,7 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><literal>1
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>color
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>wincolor
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>XLowerWindow
@@ -6015,7 +6017,7 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><literal>0
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>color
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>wincolor
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
@@ -7830,6 +7832,9 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;31mLocale failed"
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><name>set_defaults
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><name>read_rcfile
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt>;
@@ -7865,10 +7870,6 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><if><block>}
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><else>else
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>set_defaults
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>()
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><comment>// Shortcuts
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><name>grabkeys
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>()
