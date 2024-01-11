@@ -421,7 +421,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>(
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>dummy3
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
-<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"AltSuper"
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>"ALTSuper"
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list><argument><expr><literal>8
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><call><argument_list>)
