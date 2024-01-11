@@ -2242,9 +2242,7 @@
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_height
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>2
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>*
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>bdw
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>4
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><block><block_content><if_stmt><else>else
 <unit><struct><block><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>y
@@ -4348,9 +4346,7 @@
 <unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_height
 <unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>2
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>*
-<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>bdw
+<unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>4
 <unit><struct><block><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><function><block><block_content><expr_stmt><expr><name><name>wc
 <unit><struct><block><function><function><block><block_content><expr_stmt><expr><name><operator>.
