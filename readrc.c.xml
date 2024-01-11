@@ -35,7 +35,7 @@
 <unit><function><block><block_content><expr_stmt><expr><operator>=
 <unit><function><block><block_content><expr_stmt><expr><call><name>fopen
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>( 
-<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>RCFILE
+<unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>RC_FILE
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"r"
 <unit><function><block><block_content><if_stmt><if>if 
@@ -49,7 +49,7 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>stderr
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;34m:: snapwm : \033[0;31m Couldn't find %s\033[0m \n"
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>RCFILE
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>RC_FILE
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>set_defaults

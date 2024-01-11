@@ -938,7 +938,7 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><decl><type><specifier>static
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><decl><type><name>char
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><decl><name><name>RCFILE
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><decl><name><name>RC_FILE
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><decl><name><index>[
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><decl><name><index><expr><literal>100
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><decl><name><index>]
@@ -7967,10 +7967,10 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"SSB :: LOCALE FAILED\n"
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><comment>// Read in RCFILE
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><comment>// Read in RC_FILE
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><name>sprintf
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>RCFILE
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>RC_FILE
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%s/.config/snapwm/rc.conf"
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><function><block><function><function><function><function><block><function><block><block_content><expr_stmt><expr><call><argument_list>, 
