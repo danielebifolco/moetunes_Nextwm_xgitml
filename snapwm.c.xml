@@ -1431,7 +1431,7 @@
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>current
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>=
-<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><name>head
+<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><name>c
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><operator>-&gt;
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><name>prev_current
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
@@ -5276,6 +5276,9 @@
 <unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name><name>window
 <unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt>;
+<unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>warp_pointer
+<unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>tile
 <unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><function><function><block><block_content><decl_stmt><expr_stmt>;
@@ -5578,6 +5581,12 @@
 <unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><name><name>win
 <unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block>{
+<unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>c
+<unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>-&gt;
+<unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>prev_current
+<unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>current
+<unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>current
 <unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><struct><block><decl_stmt><function><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>c
