@@ -814,6 +814,12 @@
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><function><block><block_content><if_stmt><if><block>}
+<unit><function><function><function><block><block_content><if_stmt><else>else
+<unit><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>status_text
+<unit><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
+<unit><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><function><function><function><block>}
 <unit><function><function><function><type><name>void
 <unit><function><function><function><name>update_bar
