@@ -1739,11 +1739,11 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sw
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>4
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>BORDER_WIDTH
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sh
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
-<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>4
+<unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>BORDER_WIDTH
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><if><block>}
@@ -1778,7 +1778,7 @@
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sw
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
-<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>4
+<unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>BORDER_WIDTH
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>master_size
 <unit><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
