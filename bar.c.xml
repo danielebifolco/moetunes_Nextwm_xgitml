@@ -19,10 +19,12 @@
 <unit><decl_stmt><decl><name>bggc
 <unit><decl_stmt>;
 <unit><decl_stmt><decl><type><specifier>static
+<unit><decl_stmt><decl><type><name>unsigned
 <unit><decl_stmt><decl><type><name>int
 <unit><decl_stmt><decl><name>total_w
 <unit><decl_stmt>;
 <unit><decl_stmt><decl><type><specifier>static
+<unit><decl_stmt><decl><type><name>unsigned
 <unit><decl_stmt><decl><type><name>int
 <unit><decl_stmt><decl><name>pos
 <unit><decl_stmt>;
@@ -1417,6 +1419,7 @@
 <unit><function><function><block><function><parameter_list><parameter><decl><name>sb_text
 <unit><function><function><block><function><parameter_list>)
 <unit><function><function><block><function><block>{
+<unit><function><function><block><function><block><block_content><decl_stmt><decl><type><name>unsigned
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><type><name>int
 <unit><function><function><block><function><block><block_content><decl_stmt><decl><name>text_length
 <unit><function><function><block><function><block><block_content><decl_stmt>, 
