@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.9.0 ]
+<unit><comment>// readrc.c [ 0.9.1 ]
 <unit><decl_stmt><decl><type><name>unsigned
 <unit><decl_stmt><decl><type><name>int
 <unit><decl_stmt><decl><name>i
@@ -314,6 +314,8 @@
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Default Window Border Colour"
+<unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
@@ -1546,6 +1548,8 @@
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>logger
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"Default text colour"
+<unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
@@ -2724,6 +2728,8 @@
 <unit><decl_stmt><decl><function><function><block><block_content><expr_stmt><expr><call><name>logger
 <unit><decl_stmt><decl><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><decl><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\033[0;32m Setting default values"
+<unit><decl_stmt><decl><function><function><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><decl><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
 <unit><decl_stmt><decl><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><decl><function><function><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><function><function><block><block_content><return>return;
@@ -3196,42 +3202,30 @@
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><condition><expr><name>NULL
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><condition>)
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block>{
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><decl_stmt><decl><type><name>client
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><decl_stmt><decl><type><modifier>*
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><decl_stmt><decl><name>c
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><decl_stmt>;
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XUnmapWindow
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XMoveWindow
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>current
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>win
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>current
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>x
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>,
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>2
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>*
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>desktops
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>DESKTOPS
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><operator>-
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><literal>1
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>h
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for>for
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control>(
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><init><expr><name>c
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><init><expr><operator>=
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><init><expr><name>head
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><init>;
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><condition><expr><name>c
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><condition>;
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><incr><expr><name>c
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><incr><expr><operator>=
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><incr><expr><name><name>c
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><incr><expr><name><operator>-&gt;
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control><incr><expr><name><name>next
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><control>)
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><name>XMapWindow
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>c
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>win
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block>}
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for>for
 <unit><decl_stmt><decl><function><function><block><block_content><decl_stmt><decl><decl><for><control>(
