@@ -1,4 +1,4 @@
-<unit><comment>// bar.c [ 0.4.3 ]
+<unit><comment>// bar.c [ 0.4.4 ]
 <unit><comment>/* ************************** Status Bar *************************** */
 <unit><decl_stmt><decl><type><specifier>static
 <unit><decl_stmt><decl><type><name>int
