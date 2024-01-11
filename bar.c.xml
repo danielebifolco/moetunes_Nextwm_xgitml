@@ -507,7 +507,7 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block>{
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
-<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>show_bar
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>has_bar
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
@@ -554,6 +554,10 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_area
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>has_bar
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>1
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else>else 
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block>{
@@ -598,6 +602,10 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_area
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>has_bar
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>=
+<unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><literal>0
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block>}
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>tile
