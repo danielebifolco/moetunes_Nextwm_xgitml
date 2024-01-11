@@ -869,16 +869,13 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else>else
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>strncpy
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>winname
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"GETWINDOWNAME FAILED"
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>21
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><name>winname
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><index>[
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><index><expr><literal>0
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name><index>]
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>=
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><literal>'\0'
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
-<unit><decl_stmt><function><function><block><block_content><comment>//else winname[0] = '\0';
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if>if
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><condition>(
 <unit><decl_stmt><function><function><block><block_content><if_stmt><if><condition><expr><name>win_name
