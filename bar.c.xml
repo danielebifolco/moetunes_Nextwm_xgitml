@@ -717,6 +717,20 @@
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else>else 
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block>{
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>sprintf
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>busylabel
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" %s"
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>i
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>label
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>XSetWindowBackground
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -785,21 +799,11 @@
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>i
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>label
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>busylabel
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><name>strlen
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><name>sb_bar
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>[
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index><expr><name>i
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><operator>.
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>label
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>busylabel
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
@@ -844,7 +848,7 @@
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>busylabel
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"%s"
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" %s"
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
