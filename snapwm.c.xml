@@ -1892,6 +1892,9 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>current_desktop
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><return>return;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block>}
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><block_content><if_stmt><if><block><block_content><for><block>}
