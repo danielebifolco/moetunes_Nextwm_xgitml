@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.5.5 ]
+<unit><comment>// readrc.c [ 0.5.6 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -2007,6 +2007,10 @@
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>setup_status_bar
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_width
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>0
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for>for
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><control>(
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><control><init><expr><name>i
@@ -2051,18 +2055,30 @@
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_win
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>i
-<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>*
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_width
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>y
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
-<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_width
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>i
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>width
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>-
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>2
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_height
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name>sb_width
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><operator>+=
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name><name>sb_bar
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name><index>[
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name><index><expr><name>i
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name><index>]
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><operator>.
+<unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name>width
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><for><block>}
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XSetWindowBorder
