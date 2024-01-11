@@ -1114,11 +1114,6 @@
 <unit><struct><block><function><block><block_content><if_stmt><if><condition><expr><name><name>win
 <unit><struct><block><function><block><block_content><if_stmt><if><condition>)
 <unit><struct><block><function><block><block_content><if_stmt><if><block>{
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"\t transient removed!!!\n"
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>c
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>transient
@@ -2403,6 +2398,22 @@
 <unit><struct><block><function><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><struct><block><function><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><struct><block><function><block><block_content><if_stmt><if><condition>)
+<unit><struct><block><function><block><block_content><if_stmt><if><block>{
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>mode
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XMapWindow
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>current
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>win
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XMoveResizeWindow
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -2424,6 +2435,7 @@
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>bdw
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><struct><block><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><function><block><block_content><if_stmt><if><block>}
 <unit><struct><block><function><block><block_content><if_stmt><if>else if
 <unit><struct><block><function><block><block_content><if_stmt><if><condition>(
 <unit><struct><block><function><block><block_content><if_stmt><if><condition><expr><name>head
