@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.5.8 ]
+<unit><comment>// readrc.c [ 0.6.0 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -2288,6 +2288,37 @@
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_bar
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><function><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>read_apps_file
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>()
+<unit><function><function><block><block_content><decl_stmt><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>memset
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>keys
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>0
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>keycount
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>*
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof>sizeof
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>key
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
+<unit><function><function><block><block_content><decl_stmt><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>memset
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>cmds
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>0
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>cmdcount
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>*
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof>sizeof
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>(
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list><argument><expr><name>Commands
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><sizeof><argument_list>)
+<unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
+<unit><function><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>grabkeys
 <unit><function><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>()
 <unit><function><function><block><block_content><decl_stmt><expr_stmt>;
