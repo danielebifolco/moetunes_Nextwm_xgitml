@@ -1921,10 +1921,6 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><decl><type><init>= 
 <unit><function><function><block><block_content><decl_stmt><decl><decl><decl><type><init><expr><name>current_desktop
 <unit><function><function><block><block_content><decl_stmt><decl><decl><decl>;
-<unit><function><function><block><block_content><decl_stmt><decl><decl><decl_stmt><decl><type><name>client
-<unit><function><function><block><block_content><decl_stmt><decl><decl><decl_stmt><decl><type><modifier>*
-<unit><function><function><block><block_content><decl_stmt><decl><decl><decl_stmt><decl><name>c
-<unit><function><function><block><block_content><decl_stmt><decl><decl><decl_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><name>XUngrabKey
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -1999,17 +1995,6 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>current_desktop
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"CURRENT = %d, DESKTOPS = %d, OLD = %d.\n"
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>current_desktop
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>DESKTOPS
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>old_desktops
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><decl_stmt><decl><type><name>Arg
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><decl_stmt><decl><name>a
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><decl_stmt><decl><init>= 
@@ -2041,20 +2026,6 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>i
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"**DESKTOP [ %d ], numwins = %d\n"
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>current_desktop
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>desktops
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>current_desktop
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>numwins
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if>if
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition>(
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><name>head
@@ -2062,11 +2033,6 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><condition>)
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block>{
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"**MOVing CLIENT !!!!!\n"
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while>while
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><condition>(
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><condition><expr><name><name>desktops
@@ -2079,19 +2045,9 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><condition><expr><literal>0
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><condition>)
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block>{
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"WHAT!!\n"
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><name>client_to_desktop
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>a
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"**CLIENT MOVED !!\n"
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><for><block><block_content><if_stmt><if><block><block_content><while><block>}
@@ -2100,11 +2056,6 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>select_desktop
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>tmp
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><name>printf
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"****DESKTOPs DONE\n"
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><block><block_content><if_stmt><if>if
