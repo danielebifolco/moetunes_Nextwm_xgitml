@@ -979,7 +979,7 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>modename
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>+
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><literal>4
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><literal>2
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt>;
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><name>XDrawImageString
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>(
