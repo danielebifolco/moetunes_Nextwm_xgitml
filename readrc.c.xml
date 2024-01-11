@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.4.4 ]
+<unit><comment>// readrc.c [ 0.4.5 ]
 <unit><decl_stmt><decl><type><specifier>static
 <unit><decl_stmt><decl><type><name>int
 <unit><decl_stmt><decl><name>new_mode
