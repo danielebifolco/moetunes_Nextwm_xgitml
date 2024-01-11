@@ -2577,6 +2577,9 @@
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>current_desktop
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt>;
+<unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><name>update_current
+<unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt><expr><call><argument_list>()
+<unit><function><function><block><block_content><decl_stmt><decl><decl><expr_stmt>;
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if>if
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><condition>(
 <unit><function><function><block><block_content><decl_stmt><decl><decl><if_stmt><if><condition><expr><name>STATUS_BAR
