@@ -1,4 +1,4 @@
-<unit><comment>/* snapwm.c [ 0.0.7 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
+<unit><comment>/* snapwm.c [ 0.0.8 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -4541,7 +4541,6 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>'\0'
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><comment>//printf("\tTHIS IS DUMMY %s \n", dummy);
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>dummy2
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strdup
@@ -4624,7 +4623,6 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>)
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block>{
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><comment>//printf("\t FOUND DESK NAMES \n");
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strncpy
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dummy
@@ -4653,8 +4651,18 @@
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><comment>//dummy[strlen(dummy)-1] = '\0';
-<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><comment>//printf("\tTHIS IS DUMMY %s \n", dummy);
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>dummy
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index>[
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><call><name>strlen
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><call><argument_list>(
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><call><argument_list><argument><expr><name>dummy
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><call><argument_list>)
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><operator>-
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index><expr><literal>1
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><index>]
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>'\0'
+<unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>dummy2
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><decl_stmt><function><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strdup
@@ -6877,7 +6885,6 @@
 <unit><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
 <unit><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt>;
-<unit><decl_stmt><function><function><block><function><function><block><block_content><comment>//printf("\t Reading RCFILE\n");
 <unit><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><name>read_rcfile
 <unit><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt>;
