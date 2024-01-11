@@ -1,4 +1,4 @@
-<unit><comment>// events.c [ 0.8.7 ]
+<unit><comment>// events.c [ 0.8.8 ]
 <unit><function><type><name>void
 <unit><function><name>configurerequest
 <unit><function><parameter_list>(
