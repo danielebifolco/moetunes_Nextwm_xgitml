@@ -3806,11 +3806,11 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><condition>(
 <unit><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>sb_width
 <unit><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><operator>&lt;
-<unit><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><literal>20
+<unit><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>sb_height
 <unit><decl_stmt><function><block><block_content><if_stmt><if><condition>)
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_width
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>20
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_height
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><expr_stmt><expr><name>sb_desks
 <unit><decl_stmt><function><block><block_content><expr_stmt><expr><operator>=
@@ -4424,7 +4424,15 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>{
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><comment>//strcpy(busylabel, sb_bar[i].label); strcat(busylabel, "*");
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strcpy
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>busylabel
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"*"
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strcat
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>busylabel
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
@@ -4434,13 +4442,6 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>]
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>.
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>label
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strcat
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>busylabel
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"*"
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XDrawString
