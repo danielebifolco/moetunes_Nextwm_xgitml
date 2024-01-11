@@ -1,4 +1,8 @@
 <unit><comment>// readrc.c [ 0.3.9 ]
+<unit><decl_stmt><decl><type><specifier>static
+<unit><decl_stmt><decl><type><name>int
+<unit><decl_stmt><decl><name>new_mode
+<unit><decl_stmt>;
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -682,7 +686,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>mode
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>new_mode
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>atoi
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
@@ -709,7 +713,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><operator>.
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name>mode
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><operator>=
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name>mode
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name>new_mode
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for>for
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control>(
@@ -1737,7 +1741,7 @@
 <unit><function><block><block_content><decl_stmt><decl_stmt><decl><init><expr><block><expr><operator>.
 <unit><function><block><block_content><decl_stmt><decl_stmt><decl><init><expr><block><expr><name>i
 <unit><function><block><block_content><decl_stmt><decl_stmt><decl><init><expr><block><expr><operator>=
-<unit><function><block><block_content><decl_stmt><decl_stmt><decl><init><expr><block><expr><name>mode
+<unit><function><block><block_content><decl_stmt><decl_stmt><decl><init><expr><block><expr><name>new_mode
 <unit><function><block><block_content><decl_stmt><decl_stmt><decl><init><expr><block>}
 <unit><function><block><block_content><decl_stmt><decl_stmt>;
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>switch_mode
