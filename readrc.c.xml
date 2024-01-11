@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.3.6 ]
+<unit><comment>// readrc.c [ 0.3.7 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -74,6 +74,17 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><condition><expr><name>NULL
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><condition>)
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block>{
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><comment>/* Check for comments */
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if>if
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><name>buffer
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><index>[
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><index><expr><literal>0
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><name><index>]
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition><expr><literal>'#'
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><continue>continue;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><comment>/* Now look for info */
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if>if
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><condition>(
@@ -700,7 +711,6 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><operator>=
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><name>mode
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><comment>//Arg a = {.i = mode}; switch_mode(a);
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for>for
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control>(
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><init><expr><name>i
