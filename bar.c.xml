@@ -1566,9 +1566,11 @@
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><operator>=
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><literal>'\0'
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt>;
-<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><name>XFlush
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><name>XSync
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>(
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>dis
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list><argument><expr><name>False
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt><expr><call><argument_list>)
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><expr_stmt>;
 <unit><function><function><function><block><block_content><decl_stmt><decl><decl><decl><return>return;
