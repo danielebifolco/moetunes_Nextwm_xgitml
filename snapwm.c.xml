@@ -1,4 +1,4 @@
-<unit><comment>/* snapwm.c [ 0.1.1 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
+<unit><comment>/* snapwm.c [ 0.1.2 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -743,6 +743,13 @@
 <unit><decl_stmt><decl><name><name>fontbarname
 <unit><decl_stmt><decl><name><index>[
 <unit><decl_stmt><decl><name><index><expr><literal>80
+<unit><decl_stmt><decl><name><index>]
+<unit><decl_stmt>;
+<unit><decl_stmt><decl><type><specifier>static
+<unit><decl_stmt><decl><type><name>char
+<unit><decl_stmt><decl><name><name>mode_res
+<unit><decl_stmt><decl><name><index>[
+<unit><decl_stmt><decl><name><index><expr><literal>1
 <unit><decl_stmt><decl><name><index>]
 <unit><decl_stmt>;
 <unit><decl_stmt><decl><type><specifier>static
@@ -2233,6 +2240,13 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><case><expr><literal>0
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><case>:
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><comment>/* Vertical */
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><name>sprintf
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>mode_res
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"V"
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><comment>// Master window
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><name>XMoveResizeWindow
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>(
@@ -2408,6 +2422,13 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><case><expr><literal>1
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><case>:
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><comment>/* Fullscreen */
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><name>sprintf
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>mode_res
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"F"
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for>for
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><control>(
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><control><init><expr><name>c
@@ -2471,6 +2492,13 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><case><expr><literal>2
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><case>:
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><comment>/* Horizontal */
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><name>sprintf
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>mode_res
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"H"
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><comment>// Master window
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><name>XMoveResizeWindow
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>(
@@ -2651,6 +2679,13 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><case>:
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block>{
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><comment>// Grid
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><expr_stmt><expr><call><name>sprintf
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>mode_res
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"G"
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><decl_stmt><decl><type><name>int
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><decl_stmt><decl><name>xpos
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><block><block_content><decl_stmt><decl><init>= 
@@ -3492,6 +3527,9 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>getwindowname
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block>}
 <unit><decl_stmt><function><block>}
 <unit><decl_stmt><function><type><name>void
@@ -3513,6 +3551,9 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>getwindowname
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block>}
@@ -3588,6 +3629,9 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>getwindowname
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block>}
 <unit><decl_stmt><function><block>}
 <unit><decl_stmt><function><type><name>void
@@ -3659,6 +3703,9 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>getwindowname
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block>}
@@ -4265,6 +4312,12 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt>, 
 <unit><decl_stmt><function><block><block_content><decl_stmt><decl><type><name>text_start
 <unit><decl_stmt><function><block><block_content><decl_stmt><decl>;
+<unit><decl_stmt><function><block><block_content><decl_stmt><decl_stmt><decl><type><name>char
+<unit><decl_stmt><function><block><block_content><decl_stmt><decl_stmt><decl><name><name>mode_text
+<unit><decl_stmt><function><block><block_content><decl_stmt><decl_stmt><decl><name><index>[
+<unit><decl_stmt><function><block><block_content><decl_stmt><decl_stmt><decl><name><index><expr><literal>3
+<unit><decl_stmt><function><block><block_content><decl_stmt><decl_stmt><decl><name><index>]
+<unit><decl_stmt><function><block><block_content><decl_stmt><decl_stmt>;
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if>if
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition>(
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition><expr><name>sb_text
@@ -4292,11 +4345,11 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition><expr><call><argument_list><argument><expr><name>sb_text
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition><expr><call><argument_list>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition><expr><operator>&gt;=
-<unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition><expr><literal>45
+<unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition><expr><literal>35
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><condition>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><name>text_length
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>45
+<unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><literal>35
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><else>else
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><name>text_length
@@ -4306,21 +4359,42 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_text
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>sprintf
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>mode_text
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"[%s]"
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>mode_res
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><name>text_start
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>=
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>(
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><name>sb_width
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><literal>10
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>+
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>(
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>XTextWidth
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>fontbar
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>sb_text
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>mode_text
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>45
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><call><name>strlen
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>mode_text
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>)
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>+
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>(
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>XTextWidth
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>fontbar
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>" "
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>35
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>-
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><operator>(
@@ -4357,7 +4431,7 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>2
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>"[v]"
+<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>mode_text
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>3
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
@@ -4629,7 +4703,6 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block>}
-<unit><decl_stmt><function><function><block><block_content><comment>//XSync(dis, False);
 <unit><decl_stmt><function><function><block>}
 <unit><decl_stmt><function><comment>/* *********************** Read Config File ************************ */
 <unit><decl_stmt><function><function><type><name>void
@@ -7463,6 +7536,13 @@
 <unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><name>mode
 <unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><operator>=
 <unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><name>DEFAULT_MODE
+<unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><call><name>sprintf
+<unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>mode_res
+<unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"*"
+<unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><name>growth
 <unit><decl_stmt><function><function><function><block><function><function><block><block_content><expr_stmt><expr><operator>=
