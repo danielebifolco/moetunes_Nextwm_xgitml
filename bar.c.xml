@@ -382,6 +382,8 @@
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>sb_area
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>ExposureMask
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>|
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>EnterWindowMask
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>XMapRaised
