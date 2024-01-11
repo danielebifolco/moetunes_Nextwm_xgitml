@@ -6840,11 +6840,6 @@
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><if_stmt><if><block>}
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block>}
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><block>}
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><name>printf
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>"WOOT!!\n"
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><comment>// change focus with LMB
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if>if
 <unit><struct><block><decl_stmt><struct><block><decl_stmt><function><function><block><function><function><block><block_content><if_stmt><if><condition>(
