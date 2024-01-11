@@ -964,6 +964,15 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>{
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>memset
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>font_list
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>'\0'
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>256
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>strncpy
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>font_list
@@ -1523,7 +1532,7 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>stderr
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>":: snapwm :: Font '%s' Not Found\nSSB :: Trying Font 'Fixed'\n"
+<unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>":: snapwm :: Font '%s' Not Found\n:: snapwm :: Trying Font 'Fixed'\n"
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>font_list
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
