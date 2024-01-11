@@ -1,4 +1,4 @@
-<unit><comment>// bar.c [ 0.5.1 ]
+<unit><comment>// bar.c [ 0.5.2 ]
 <unit><function_decl><type><specifier>static
 <unit><function_decl><type><name>void
 <unit><function_decl><name>draw_numopen
@@ -1013,6 +1013,7 @@
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&lt;
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>1
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>(
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><name>desktops
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index>[
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index><expr><name>i
@@ -1021,6 +1022,16 @@
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>mode
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>||
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><name>desktops
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index>[
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index><expr><name>i
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index>]
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>.
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name>mode
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><literal>4
+<unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>)
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><operator>&amp;&amp;
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><name>desktops
 <unit><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><if_stmt><if><condition><expr><name><index>[
