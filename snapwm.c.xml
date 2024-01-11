@@ -1299,10 +1299,8 @@
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
-<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>status_text
-<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
-<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>getwindowname
+<unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><return>return;
 <unit><struct><block><decl_stmt><function><block><block_content><for><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>}
@@ -1590,6 +1588,9 @@
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>warp_pointer
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block>}
 <unit><struct><block><decl_stmt><function><block>}
 <unit><struct><block><decl_stmt><function><type><name>void
@@ -1663,6 +1664,9 @@
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>update_current
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>warp_pointer
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block>}
@@ -3823,10 +3827,8 @@
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else>else
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>status_text
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>""
-<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>getwindowname
+<unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>()
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><struct><block><decl_stmt><function><block><block_content><if_stmt><if><block>}
 <unit><struct><block><decl_stmt><function><block><block_content><expr_stmt><expr><call><name>XSync
