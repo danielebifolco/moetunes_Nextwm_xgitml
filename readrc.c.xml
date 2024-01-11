@@ -1,4 +1,4 @@
-<unit><comment>// readrc.c [ 0.5.2 ]
+<unit><comment>// readrc.c [ 0.5.3 ]
 <unit><comment>/* *********************** Read Config File ************************ */
 <unit><function><type><name>void
 <unit><function><name>read_rcfile
@@ -10,14 +10,14 @@
 <unit><function><block><block_content><decl_stmt><decl><type><name>char
 <unit><function><block><block_content><decl_stmt><decl><name><name>buffer
 <unit><function><block><block_content><decl_stmt><decl><name><index>[
-<unit><function><block><block_content><decl_stmt><decl><name><index><expr><literal>100
+<unit><function><block><block_content><decl_stmt><decl><name><index><expr><literal>256
 <unit><function><block><block_content><decl_stmt><decl><name><index>]
 <unit><function><block><block_content><decl_stmt>;
 <unit><function><block><block_content><comment>/* Way bigger that neccessary */
 <unit><function><block><block_content><decl_stmt><decl><type><name>char
 <unit><function><block><block_content><decl_stmt><decl><name><name>dummy
 <unit><function><block><block_content><decl_stmt><decl><name><index>[
-<unit><function><block><block_content><decl_stmt><decl><name><index><expr><literal>100
+<unit><function><block><block_content><decl_stmt><decl><name><index><expr><literal>256
 <unit><function><block><block_content><decl_stmt><decl><name><index>]
 <unit><function><block><block_content><decl_stmt>;
 <unit><function><block><block_content><decl_stmt><decl><type><name>char
@@ -221,7 +221,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><init>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><operator>&lt;
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>101
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>256
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><condition>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><operator>++
@@ -618,7 +618,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><init>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><operator>&lt;
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>101
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>256
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><operator>++
@@ -767,7 +767,7 @@
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><init>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><operator>&lt;
-<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>101
+<unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition><expr><literal>256
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><condition>;
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><name>i
 <unit><function><block><block_content><if_stmt><else><block><block_content><while><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><operator>++
@@ -1528,7 +1528,6 @@
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>1
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><expr_stmt>;
-<unit><function><block><block_content><decl_stmt><if_stmt><if><block><block_content><comment>//printf("FONTWIDTH = %d\n", font.width);
 <unit><function><block><block_content><decl_stmt><if_stmt><if><block>}
 <unit><function><block><block_content><decl_stmt><if_stmt><else>else 
 <unit><function><block><block_content><decl_stmt><if_stmt><else><block>{
