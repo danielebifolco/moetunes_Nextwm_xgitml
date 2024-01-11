@@ -1,4 +1,4 @@
-<unit><comment>/* snapwm.c [ 0.0.9 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
+<unit><comment>/* snapwm.c [ 0.1.0 ]**  I started this from catwm 31/12/10*  Bad window error checking and numlock checking used from*  2wm at http://hg.suckless.org/2wm/**  This program is free software: you can redistribute it and/or modify*  it under the terms of the GNU General Public License as published by*  the Free Software Foundation, either version 3 of the License, or*  (at your option) any later version.*  This program is distributed in the hope that it will be useful,*  but WITHOUT ANY WARRANTY; without even the implied warranty of*  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the*  GNU General Public License for more details.*  You should have received a copy of the GNU General Public License*  along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.*/
 <unit><cpp:include>#
 <unit><cpp:include><cpp:directive>include
 <unit><cpp:include><cpp:file>&lt;X11/Xlib.h&gt;
@@ -2176,6 +2176,21 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><condition><expr><name>NULL
 <unit><decl_stmt><function><block><block_content><if_stmt><if><condition>)
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block>{
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if>if
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>mode
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XMapWindow
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>head
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>-&gt;
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>win
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XMoveResizeWindow
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -2196,6 +2211,10 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>BORDER_WIDTH
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>growth
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
+<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>0
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block>}
 <unit><decl_stmt><function><block><block_content><if_stmt><if>else if
@@ -2256,16 +2275,6 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><operator>++
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><name>n
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt>;
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if>if
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition>(
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition><expr><name>n
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition><expr><operator>==
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition><expr><literal>1
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition>)
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>growth
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>0
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><name>XMoveResizeWindow
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -2504,16 +2513,6 @@
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><operator>++
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt><expr><name>n
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><for><block><block_content><expr_stmt>;
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if>if
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition>(
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition><expr><name>n
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition><expr><operator>==
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition><expr><literal>1
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><condition>)
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>growth
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>0
-<unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><name>XMoveResizeWindow
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><decl_stmt><function><block><block_content><if_stmt><if><block><block_content><switch><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
@@ -4363,13 +4362,7 @@
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>text_length
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt>;
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><name>XSync
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>(
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>dis
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>False
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>)
-<unit><decl_stmt><function><block><block_content><decl_stmt><expr_stmt>;
+<unit><decl_stmt><function><block><block_content><decl_stmt><comment>//XSync(dis, False);
 <unit><decl_stmt><function><block><block_content>}
 <unit><decl_stmt><function><function><type><name>void
 <unit><decl_stmt><function><function><name>update_bar
@@ -4615,13 +4608,7 @@
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><decl_stmt><function><function><block><block_content><for><block><block_content><if_stmt><else><block>}
-<unit><decl_stmt><function><function><block><block_content><expr_stmt><expr><call><name>XSync
-<unit><decl_stmt><function><function><block><block_content><expr_stmt><expr><call><argument_list>(
-<unit><decl_stmt><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
-<unit><decl_stmt><function><function><block><block_content><expr_stmt><expr><call><argument_list>, 
-<unit><decl_stmt><function><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>False
-<unit><decl_stmt><function><function><block><block_content><expr_stmt><expr><call><argument_list>)
-<unit><decl_stmt><function><function><block><block_content><expr_stmt>;
+<unit><decl_stmt><function><function><block><block_content><comment>//XSync(dis, False);
 <unit><decl_stmt><function><function><block>}
 <unit><decl_stmt><function><comment>/* *********************** Read Config File ************************ */
 <unit><decl_stmt><function><function><type><name>void
