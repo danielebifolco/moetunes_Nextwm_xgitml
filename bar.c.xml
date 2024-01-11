@@ -1,4 +1,4 @@
-<unit><comment>// bar.c [ 0.3.4 ]
+<unit><comment>// bar.c [ 0.3.5 ]
 <unit><comment>/* ************************** Status Bar *************************** */
 <unit><function><type><name>void
 <unit><function><name>setup_status_bar
