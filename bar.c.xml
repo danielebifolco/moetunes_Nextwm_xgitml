@@ -202,7 +202,13 @@
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>label
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>(
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>extra_width
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>*
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>font
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><operator>.
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name><name>width
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else>else
@@ -236,7 +242,13 @@
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list><argument><expr><name>label
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>+
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>(
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>extra_width
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>*
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>font
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><operator>.
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>width
+<unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><operator>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><function><block><block_content><decl_stmt><for><block><block_content><if_stmt><if>if
