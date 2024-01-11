@@ -1,4 +1,4 @@
-<unit><comment>// bar.c [ 0.3.1 ]
+<unit><comment>// bar.c [ 0.3.2 ]
 <unit><comment>/* ************************** Status Bar *************************** */
 <unit><function><type><name>void
 <unit><function><name>setup_status_bar
@@ -10,10 +10,6 @@
 <unit><function><block><block_content><decl_stmt><decl><type><name>XGCValues
 <unit><function><block><block_content><decl_stmt><decl><name>values
 <unit><function><block><block_content><decl_stmt>;
-<unit><function><block><block_content><expr_stmt><expr><name>show_bar
-<unit><function><block><block_content><expr_stmt><expr><operator>=
-<unit><function><block><block_content><expr_stmt><expr><name>STATUS_BAR
-<unit><function><block><block_content><expr_stmt>;
 <unit><function><block><block_content><expr_stmt><expr><call><name>logger
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><literal>" \033[0;33mStatus Bar called ..."
@@ -317,6 +313,8 @@
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><literal>2
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>)
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><operator>+
+<unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>bdw
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list><argument><expr><name>sb_height
 <unit><function><block><block_content><decl_stmt><expr_stmt><expr><call><argument_list>,
@@ -380,16 +378,18 @@
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>(
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><name>show_bar
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><operator>==
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>1
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition><expr><literal>0
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><condition>)
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block>{
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>show_bar
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>=
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>0
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>1
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sh
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>-=
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+=
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><name>sb_height
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><operator>+
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><literal>4
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for>for
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control>(
@@ -404,10 +404,10 @@
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><name>i
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control><incr><expr><operator>++
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><control>)
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><name>XMapRaised
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><name>XUnmapWindow
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>i
@@ -416,7 +416,7 @@
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_win
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><for><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XMapRaised
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><name>XUnmapWindow
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><if><block><block_content><expr_stmt><expr><call><argument_list>, 
@@ -428,11 +428,13 @@
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block>{
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>show_bar
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>=
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><literal>1
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><literal>0
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>sh
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>+=
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>-=
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><name>sb_height
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><operator>+
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><literal>4
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt>;
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for>for
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><control>(
@@ -447,10 +449,10 @@
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><control><incr><expr><name>i
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><control><incr><expr><operator>++
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><control>)
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><name>XUnmapWindow
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><name>XMapRaised
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>,
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>, 
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><name>sb_bar
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index>[
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name><index><expr><name>i
@@ -459,7 +461,7 @@
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>sb_win
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt><expr><call><argument_list>)
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><for><block><block_content><expr_stmt>;
-<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>XUnmapWindow
+<unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><name>XMapRaised
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>(
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list><argument><expr><name>dis
 <unit><function><function><block><block_content><if_stmt><if><block><block_content><if_stmt><else><block><block_content><expr_stmt><expr><call><argument_list>, 
